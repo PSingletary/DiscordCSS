@@ -1,0 +1,104 @@
+/**
+ * @name Discord CSS template
+ * @author BetterDiscord
+ * @description https://docs.betterdiscord.app/discord/variables#darkeramoled-common
+ * Darker AMOLED Common Theme
+ 
+ */
+ 
+ .theme-amoled,
+ .theme-darker {
+     --activity-card-background: var(--primary-700);
+     --android-navigation-bar-background: var(--primary-830);
+     --android-navigation-scrim-background: hsl(var(--primary-830-hsl)/0.5);
+     --android-ripple: hsl(var(--white-500-hsl)/0.07);
+     --black: var(--black-500);
+     --border-faint: hsl(var(--dontuse-11-hsl)/0.06);
+     --border-subtle: hsl(var(--dontuse-11-hsl)/0.12);
+     --bug-reporter-modal-submitting-background: hsl(var(--primary-800-hsl)/0.6);
+     --channels-default: var(--primary-360);
+     --chat-border: var(--primary-700);
+     --control-brand-foreground: var(--brand-360);
+     --control-brand-foreground-new: var(--brand-360);
+     --creator-revenue-icon-gradient-end: var(--teal-430);
+     --creator-revenue-icon-gradient-start: var(--teal-360);
+     --creator-revenue-info-box-background: hsl(var(--teal-430-hsl)/0.1);
+     --creator-revenue-info-box-border: var(--teal-400);
+     --creator-revenue-locked-channel-icon: var(--teal-345);
+     --creator-revenue-progress-bar: var(--teal-400);
+     --deprecated-card-bg: hsl(var(--primary-700-hsl)/0.6);
+     --deprecated-card-editable-bg: hsl(var(--primary-700-hsl)/0.3);
+     --deprecated-quickswitcher-input-background: var(--primary-400);
+     --deprecated-quickswitcher-input-placeholder: hsl(var(--white-500-hsl)/0.3);
+     --deprecated-store-bg: var(--primary-600);
+     --deprecated-text-input-bg: var(--primary-700);
+     --deprecated-text-input-border: hsl(var(--black-500-hsl)/0.3);
+     --deprecated-text-input-border-disabled: var(--primary-700);
+     --deprecated-text-input-border-hover: var(--primary-900);
+     --deprecated-text-input-prefix: var(--primary-200);
+     --display-banner-overflow-background: hsl(var(--primary-700-hsl)/0.5);
+     --divider-subtle: hsl(var(--dontuse-11-hsl)/0.12);
+     --focus-primary: var(--blue-345);
+     --forum-post-extra-media-count-container-background: hsl(var(--primary-660-hsl)/0.8);
+     --forum-post-tag-background: hsl(var(--primary-660-hsl)/0.9);
+     --guild-notifications-bottom-sheet-pill-background: var(--primary-700);
+     --header-muted: var(--dontuse-10);
+     --icon-muted: var(--dontuse-13);
+     --icon-secondary: var(--dontuse-9);
+     --info-box-background: hsl(var(--blue-345-hsl)/0.1);
+     --info-danger-background: hsl(var(--red-400-hsl)/0.1);
+     --info-danger-foreground: var(--red-400);
+     --info-danger-text: var(--white-500);
+     --info-help-background: hsl(var(--blue-345-hsl)/0.1);
+     --info-help-foreground: var(--blue-345);
+     --info-help-text: var(--white-500);
+     --info-positive-background: hsl(var(--green-360-hsl)/0.1);
+     --info-positive-foreground: var(--green-360);
+     --info-positive-text: var(--white-500);
+     --info-warning-background: hsl(var(--yellow-300-hsl)/0.1);
+     --info-warning-foreground: var(--yellow-300);
+     --info-warning-text: var(--white-500);
+     --interactive-hover: var(--primary-230);
+     --interactive-muted: var(--dontuse-13);
+     --legacy-android-blur-overlay-default: hsl(var(--primary-660-hsl)/0.5);
+     --legacy-android-blur-overlay-ultra-thin: hsl(var(--black-500-hsl)/0.025);
+     --legacy-blur-fallback-default: hsl(var(--primary-660-hsl)/0.975);
+     --legacy-blur-fallback-ultra-thin: hsl(var(--black-500-hsl)/0.95);
+     --live-stage-tile-border: hsl(var(--primary-500-hsl)/0.6);
+     --logo-primary: var(--white-500);
+     --mention-background: hsl(var(--brand-500-hsl)/0.5);
+     --mention-foreground: var(--brand-230);
+     --modal-background: var(--primary-600);
+     --modal-footer-background: var(--primary-630);
+     --profile-gradient-card-background: hsl(var(--black-500-hsl)/0.7);
+     --profile-gradient-message-input-border: hsl(var(--primary-500-hsl)/0.48);
+     --profile-gradient-note-background: hsl(var(--black-500-hsl)/0.3);
+     --profile-gradient-overlay: hsl(var(--black-500-hsl)/0.6);
+     --profile-gradient-overlay-synced-with-user-theme: hsl(var(--black-500-hsl)/0.8);
+     --profile-gradient-profile-body-background-hover: hsl(var(--white-500-hsl)/0.16);
+     --profile-gradient-role-pill-background: hsl(var(--primary-660-hsl)/0.5);
+     --profile-gradient-role-pill-border: hsl(var(--white-500-hsl)/0.2);
+     --profile-gradient-section-box: hsl(var(--black-500-hsl)/0.45);
+     --spoiler-hidden-background: var(--dontuse-14);
+     --spoiler-revealed-background: hsl(var(--dontuse-11-hsl)/0.16);
+     --status-danger: var(--red-400);
+     --status-danger-background: var(--red-400);
+     --status-danger-text: var(--white-500);
+     --status-dnd: var(--red-400);
+     --status-idle: var(--yellow-300);
+     --status-offline: var(--primary-360);
+     --status-online: var(--green-360);
+     --status-positive: var(--green-360);
+     --status-positive-background: var(--green-430);
+     --status-positive-text: var(--white-500);
+     --status-speaking: var(--green-360);
+     --status-warning: var(--yellow-300);
+     --status-warning-background: var(--yellow-300);
+     --status-warning-text: var(--black-500);
+     --textbox-markdown-syntax: var(--primary-360);
+     --theme-locked-blur-fallback: hsl(var(--primary-700-hsl)/0.96);
+     --user-profile-header-overflow-background: hsl(var(--primary-700-hsl)/0.5);
+     --voice-video-tile-blur-fallback: hsl(var(--primary-700-hsl)/0.48);
+     --voice-video-video-tile-blur-fallback: hsl(var(--primary-700-hsl)/0.48);
+     --white: var(--white-500)
+ } 
