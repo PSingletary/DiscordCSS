@@ -1,25 +1,23 @@
 /**
- * @name CyberPunk Umbra AMOLED
- * @author PSingletary
- * @description Adapted from https://github.com/prometheux-ar/cyberpunk
- * @version 0.0.1
- * @authorId 443204436773306379
- * @authorLink https://psingletary.me
- * @source https://github.com/PSingletary/DiscordCSS/Custom/Cyberpunk_UMBRA_AMOLED.css
- * @website https://psingletary.me
- * @invite ueayTKqNU4
+* @name CyberPunk Umbra AMOLED
+* @author PSingletary
+* @description Adapted from https://github.com/prometheux-ar/cyberpunk
+* @version 0.0.1
+* @authorId 468132563714703390
+* @authorLink https://psingletary.me
+* @source https://github.com/PSingletary/DiscordCSS/Custom/Cyberpunk_UMBRA_AMOLED.css
+* @website https://psingletary.me
+* @invite ueayTKqNU4
+* Dark Green		00b26d		hsl(157, 100%, 35%)     rgb(0, 178, 109)
+* Bright Green		00ff9c		hsl(157, 100%, 50%)     rgb(0, 255, 156)
+* Purple			0f0d22 		hsl(246, 45%, 9%)       rgb(15, 13, 34)
+* Light Purple		1e1d43		hsl(242, 40%, 19%)      rgb(30, 29, 67)
+* Lightest Purple	352a60		hsl(252, 39%, 27%)      rgb(53, 42, 96)
+* Red				95332d		hsl(3, 54%, 38%)        rgb(149, 51, 45)
+* Yellow			f09630		hsl(32, 86%, 56%)       rgb(240, 150, 48)
+* Blue				435af7		hsl(232, 92%, 62%)      rgb(67, 90, 247)
+*/
 
-
- * Dark Green		00b26d		hsl(157, 100%, 35%)     rgb(0, 178, 109)
- * Bright Green		00ff9c		hsl(157, 100%, 50%)     rgb(0, 255, 156)
- * Purple 			0f0d22 		hsl(246, 45%, 9%)       rgb(15, 13, 34)
- * Light Purple		1e1d43		hsl(242, 40%, 19%)      rgb(30, 29, 67)
- * Lightest Purple	352a60		hsl(252, 39%, 27%)      rgb(53, 42, 96)
- * Red 				95332d		hsl(3, 54%, 38%)        rgb(149, 51, 45)
- * Yellow			f09630		hsl(32, 86%, 56%)       rgb(240, 150, 48)
- * Blue 			435af7		hsl(232, 92%, 62%)      rgb(67, 90, 247)
-
- */
 
  @import url('https://fonts.googleapis.com/css2?family=Consolas:wght@100;300;400;500;700&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500;700&display=swap');
