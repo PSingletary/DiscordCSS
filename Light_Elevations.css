@@ -1,0 +1,16 @@
+/**
+ * @name Discord CSS template
+ * @author BetterDiscord
+ * @description https://docs.betterdiscord.app/discord/variables#light-1
+ * Light Elevations
+ 
+ */
+
+
+ .theme-light {
+    --guild-header-text-shadow: 0 1px 1px hsl(var(--white-500-hsl)/0.4);
+    --elevation-stroke: 0 0 0 1px hsl(var(--primary-860-hsl)/0.08);
+    --elevation-low: 0 1px 0 hsl(var(--primary-860-hsl)/0.1), 0 1.5px 0 hsl(var(--primary-900-hsl)/0.025), 0 2px 0 hsl(var(--primary-860-hsl)/0.025);
+    --elevation-medium: 0 4px 4px hsl(var(--black-500-hsl)/0.08);
+    --elevation-high: 0 8px 16px hsl(var(--black-500-hsl)/0.16)
+}
