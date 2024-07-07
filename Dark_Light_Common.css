@@ -1,0 +1,17 @@
+/**
+ * @name Discord CSS template
+ * @author BetterDiscord
+ * @description https://docs.betterdiscord.app/discord/variables#dark-theme
+ * DARK LIGHT Common THEME
+
+ */
+ .theme-dark,
+ .theme-light {
+     --black: var(--black-500);
+     --focus-primary: var(--blue-345);
+     --info-box-background: hsl(var(--blue-345-hsl)/0.1);
+     --theme-locked-blur-fallback: hsl(var(--primary-700-hsl)/0.96);
+     --voice-video-tile-blur-fallback: hsl(var(--primary-700-hsl)/0.48);
+     --voice-video-video-tile-blur-fallback: hsl(var(--primary-700-hsl)/0.48);
+     --white: var(--white-500)
+ }
