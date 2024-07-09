@@ -723,7 +723,7 @@
      -webkit-mask-size: var(--moon-icon-size);
      mask-size: var(--moon-icon-size);
      -webkit-mask-repeat: none;
-	 mask-repeat: none;
+     mask-repeat: none;
  }
  .wrapper_f90abb:hover .childWrapper_f90abb::before {
      /* prettier-ignore */
